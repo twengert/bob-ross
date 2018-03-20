@@ -1,0 +1,68 @@
+<!Doctype html>
+<html>
+<head>
+<style type="text/css">
+body {
+	
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: navy;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+h1 {
+	font-family: "Times New Roman", Times, serif;
+	color: navy;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+o1 {
+	font-family: "Times New Roman", Times, serif;
+	color: maroon;
+</style>
+	<title>Tyler Wengert's Projects</title>
+</head>
+<body>
+<h1>Projects</h1>
+
+<ul>
+  <li><a href="www.tylerwengert.com">Home</a></li>
+  <li><a class="active" href="www.tylerwengert.com/contact">Projects</a></li>
+  <li><a href="www.tylerwengert.com/contact">Contact</a></li>
+  <li><a href="www.tylerwengert.com/about">About</a></li>
+</ul>
+
+<div style="margin-left:15%;padding:1px 16px;">
+	
+	<p>Right now, I don't have any projects I feel deserve being posted here, but fear not! I will update this page
+with anything worthy of your time as soon as I create it.</p>
+</div>
+
+</body>
